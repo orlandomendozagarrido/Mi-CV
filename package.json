@@ -18,7 +18,8 @@
   "homepage": "https://github.com/orlandomendozagarrido/portfolio#readme",
   "dependencies": {
     "fontawesome": "^5.6.3",
-    "node-sass": "^4.13.1"
+    "node-sass": "^4.13.1",
+    "uuid": "^3.4.0"
   },
   "devDependencies": {
     "babel-core": "^6.26.3",
