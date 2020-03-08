@@ -28,7 +28,7 @@
 		min-height: 0;
 
 		&.show {
-			transfomr: translate3d(0, 0, 0);
+			transform: translate3d(0, 0, 0);
 		}
 	}
 
@@ -43,12 +43,22 @@
 		transform: translate3d(100%, 0, 0);
 	
        .portrait {
-       	background: url('../img/hope.png' no-repeat);
+       	background: url('../img/hope.png');
        	width: 150px;
        	height: 150px;
        }
 	}
-	
+
+  .about-info {
+  	grid-template-areas:
+  	'bioimage'
+  	'bio'
+  	'job1'
+  	'job2'
+  	'job3';
+
+  	grid-template-columns: 1fr;
+  }	
 }
 
 //Smartphones
